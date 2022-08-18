@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "./Title";
 
 class SolarSystem extends React.Component {
 
@@ -7,7 +8,7 @@ class SolarSystem extends React.Component {
 
         return (
             <div data-testid="solar-system">
-
+                <Title headline = 'Planetas'></Title>
             </div>)
     }
 }
