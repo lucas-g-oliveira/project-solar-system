@@ -9,7 +9,7 @@ class App extends React.Component {
       <main>
         <Header data-testid="my-action" />
         <SolarSystem />
-        <Missions/>
+        <Missions />
       </main>
     );
   }
