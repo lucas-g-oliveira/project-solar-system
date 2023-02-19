@@ -1,0 +1,83 @@
+/* .planetCard {} */
+
+body{
+    background-image: url('../images/background.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Planet {
+    width: 100px;
+    color: aliceblue;
+}
+
+.missionCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    border-radius: 10px;
+    border: solid 3px wheat;
+    width: 300px;
+    justify-items: center;
+    margin: 30px;
+}
+
+.planetCard {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: space-between;
+    width: 140px;
+    width: 140px;
+}
+
+.solarSystem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    display: flex;
+    width: 1100px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.missName{
+    font-family: 'Anton', sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.missions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3, p, h1, h2 {
+    color: antiquewhite;
+    font-family: 'Anton', sans-serif;
+}
